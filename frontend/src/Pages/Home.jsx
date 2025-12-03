@@ -19,7 +19,7 @@ import {
   CheckCircle2,
   AlertCircle,
 } from "lucide-react";
-import LoginModal from "@/components/LoginModal";
+import LoginModal from "../Components/LoginModal";
 
 export default function Home() {
   const [isLoginOpen, setIsLoginOpen] = useState(false);

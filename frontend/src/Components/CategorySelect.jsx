@@ -40,7 +40,7 @@ export default function CategorySelect({ value, onChange }) {
           }`}
         />
       </button>
-{/* jffhythdcf */}
+
       {isOpen && (
         <div className="absolute top-full left-0 right-0 mt-2 bg-[#1a0a42] border border-white/20 rounded-lg shadow-2xl z-50 overflow-hidden">
           {CATEGORIES.map((category) => (
